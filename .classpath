@@ -33,5 +33,9 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="/Users/eKuber30/Desktop/Selenium Jar Files/selenium-server-standalone-2.53.1.jar"/>
+	<classpathentry kind="lib" path="/Users/eKuber30/Desktop/Selenium Jar Files/gherkin-2.12.1.jar"/>
+	<classpathentry kind="lib" path="/Users/eKuber30/Desktop/Selenium Jar Files/cucumber-reporting-0.1.0.jar"/>
+	<classpathentry kind="lib" path="/Users/eKuber30/Desktop/Selenium Jar Files/cucumber-core-1.1.2.jar"/>
+	<classpathentry kind="lib" path="/Users/eKuber30/Desktop/Selenium Jar Files/cucumber-jvm-deps-1.0.3.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="runner.TestRunnerNew" time="0.026" tests="16" errors="0" skipped="0" failures="0">
+<testsuite name="runner.TestRunnerNew" time="0.003" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib"/>
@@ -61,20 +61,8 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="Given open firefox and start application" classname="Scenario: Test login  with valid credentials" time="0.01"/>
-  <testcase name="When I enter a valid username and password" classname="Scenario: Test login  with valid credentials" time="0"/>
-  <testcase name="Then user should be able to login successfully" classname="Scenario: Test login  with valid credentials" time="0"/>
-  <testcase name="Scenario: Test login  with valid credentials" classname="Scenario: Test login  with valid credentials" time="0"/>
-  <testcase name="Given open firefox and start application" classname="Scenario: Test login  with valid credentials" time="0"/>
-  <testcase name="When I enter a valid username and password" classname="Scenario: Test login  with valid credentials" time="0"/>
-  <testcase name="Then user should be able to login successfully" classname="Scenario: Test login  with valid credentials" time="0"/>
-  <testcase name="Scenario: Test login  with valid credentials" classname="Scenario: Test login  with valid credentials" time="0.001"/>
-  <testcase name="Given open firefox and start application" classname="Scenario: Test login  with valid credentials" time="0"/>
-  <testcase name="When I enter a valid username and password" classname="Scenario: Test login  with valid credentials" time="0"/>
-  <testcase name="Then user should be able to login successfully" classname="Scenario: Test login  with valid credentials" time="0.006"/>
-  <testcase name="Scenario: Test login  with valid credentials" classname="Scenario: Test login  with valid credentials" time="0.007"/>
-  <testcase name="Given open firefox and start application" classname="Scenario: Test login  with valid credentials" time="0.001"/>
-  <testcase name="When I enter a valid username and password" classname="Scenario: Test login  with valid credentials" time="0"/>
-  <testcase name="Then user should be able to login successfully" classname="Scenario: Test login  with valid credentials" time="0"/>
-  <testcase name="Scenario: Test login  with valid credentials" classname="Scenario: Test login  with valid credentials" time="0.001"/>
+  <testcase name="Given open firefox and start application" classname="| wuikhan@gmail.com | Pakistan1 |" time="0.001"/>
+  <testcase name="When I enter a valid &quot;wuikhan@gmail.com&quot; and valid &quot;Pakistan1&quot;" classname="| wuikhan@gmail.com | Pakistan1 |" time="0.001"/>
+  <testcase name="Then user should be able to login successfully" classname="| wuikhan@gmail.com | Pakistan1 |" time="0"/>
+  <testcase name="| wuikhan@gmail.com | Pakistan1 |" classname="| wuikhan@gmail.com | Pakistan1 |" time="0.001"/>
 </testsuite>

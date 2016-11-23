@@ -29,11 +29,11 @@ public class SmokeTest {
 		driver.get("http://www.facebook.com");
 	}
 	
-	@When("^I enter a valid username and password$")
-	public void i_enter_a_valid_username_and_password() throws Throwable {
+	@When("^I enter a valid \"(.*?)\" and valid \"(.*?)\"$")
+	public void i_enter_a_valid_and_valid(String username, String password) throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
-	    driver.findElement(By.id("email")).sendKeys("email");
-	    driver.findElement(By.id("pass")).sendKeys("password");
+	    driver.findElement(By.id("email")).sendKeys(username);
+	    driver.findElement(By.id("pass")).sendKeys(password);
 	    driver.findElement(By.id("loginbutton")).click();
 	    String title = driver.getTitle();
 	    System.out.println(title);
